@@ -1,0 +1,171 @@
+2025-12-03 22:10:30 - INFO - ==================================================
+2025-12-03 22:10:30 - INFO - NEW TRAVEL PLANNING SESSION STARTED
+2025-12-03 22:10:30 - INFO - ==================================================
+2025-12-03 22:10:49 - INFO - Using origin airport: JFK
+2025-12-03 22:10:49 - INFO - Using destination city code for hotel/activities: PAR
+2025-12-03 22:11:00 - INFO - [find_best_flight] Found flight with 6X at 250.23 USD.
+2025-12-03 22:11:00 - INFO - [find_best_hotel] Searching hotels in PAR (City Code)
+2025-12-03 22:11:01 - ERROR - [find_best_hotel] Amadeus API error: [400]
+
+2025-12-03 22:11:01 - INFO - [get_activities] Searching activities near PAR (48.85334, 2.34889)
+2025-12-03 22:11:05 - INFO - [get_activities] Found 3 activities.
+2025-12-03 22:11:05 - INFO - 
+Running multi-agent crew...
+
+2025-12-03 22:11:10 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:11:10 - INFO - OpenAI API usage: {'prompt_tokens': 218, 'completion_tokens': 284, 'total_tokens': 502}
+2025-12-03 22:11:13 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:11:13 - INFO - OpenAI API usage: {'prompt_tokens': 519, 'completion_tokens': 101, 'total_tokens': 620}
+2025-12-03 22:11:16 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:11:16 - INFO - OpenAI API usage: {'prompt_tokens': 577, 'completion_tokens': 112, 'total_tokens': 689}
+2025-12-03 22:11:22 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:11:22 - INFO - OpenAI API usage: {'prompt_tokens': 769, 'completion_tokens': 340, 'total_tokens': 1109}
+2025-12-03 22:11:22 - INFO - 
+=== Final Itinerary ===
+2025-12-03 22:13:45 - INFO - ==================================================
+2025-12-03 22:13:45 - INFO - NEW TRAVEL PLANNING SESSION STARTED
+2025-12-03 22:13:45 - INFO - ==================================================
+2025-12-03 22:14:02 - INFO - Using origin airport: JFK
+2025-12-03 22:14:02 - INFO - Using destination city code for hotel/activities: PAR
+2025-12-03 22:14:04 - INFO - [find_best_flight] Searching JFK (Airport) -> CDG (Airport)
+2025-12-03 22:14:14 - INFO - [find_best_flight] Found flight with 6X at 250.23 USD.
+2025-12-03 22:14:14 - INFO - [find_best_hotel] Searching hotels in PAR (City Code)
+2025-12-03 22:14:15 - ERROR - [find_best_hotel] Amadeus API error: [400]
+
+2025-12-03 22:14:15 - INFO - [get_activities] Searching activities near PAR (48.85334, 2.34889)
+2025-12-03 22:14:19 - INFO - [get_activities] Found 3 activities.
+2025-12-03 22:14:19 - INFO - 
+Running multi-agent crew...
+
+2025-12-03 22:14:24 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:14:24 - INFO - OpenAI API usage: {'prompt_tokens': 218, 'completion_tokens': 309, 'total_tokens': 527}
+2025-12-03 22:14:26 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:14:26 - INFO - OpenAI API usage: {'prompt_tokens': 544, 'completion_tokens': 107, 'total_tokens': 651}
+2025-12-03 22:14:27 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:14:27 - INFO - OpenAI API usage: {'prompt_tokens': 609, 'completion_tokens': 80, 'total_tokens': 689}
+2025-12-03 22:14:32 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:14:32 - INFO - OpenAI API usage: {'prompt_tokens': 768, 'completion_tokens': 298, 'total_tokens': 1066}
+2025-12-03 22:14:32 - INFO - 
+=== Final Itinerary ===
+2025-12-03 22:17:18 - INFO - ==================================================
+2025-12-03 22:17:18 - INFO - NEW TRAVEL PLANNING SESSION STARTED
+2025-12-03 22:17:18 - INFO - ==================================================
+2025-12-03 22:17:51 - INFO - Using origin airport: JFK
+2025-12-03 22:17:51 - INFO - Using destination city code for hotel/activities: PAR
+2025-12-03 22:17:53 - INFO - [find_best_flight] Searching JFK (Airport) -> CDG (Airport)
+2025-12-03 22:18:02 - INFO - [find_best_flight] Found flight with 6X at 250.23 USD.
+2025-12-03 22:18:02 - INFO - [find_best_hotel] Searching hotels in PAR (City Code)
+2025-12-03 22:18:04 - ERROR - [find_best_hotel] Amadeus API error: [400]
+
+2025-12-03 22:18:04 - INFO - [get_activities] Searching activities near PAR (48.85334, 2.34889)
+2025-12-03 22:18:07 - INFO - [get_activities] Found 3 activities.
+2025-12-03 22:18:07 - INFO - 
+Running multi-agent crew...
+
+2025-12-03 22:18:13 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:18:13 - INFO - OpenAI API usage: {'prompt_tokens': 218, 'completion_tokens': 335, 'total_tokens': 553}
+2025-12-03 22:18:15 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:18:15 - INFO - OpenAI API usage: {'prompt_tokens': 571, 'completion_tokens': 112, 'total_tokens': 683}
+2025-12-03 22:18:18 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:18:18 - INFO - OpenAI API usage: {'prompt_tokens': 640, 'completion_tokens': 114, 'total_tokens': 754}
+2025-12-03 22:18:23 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:18:23 - INFO - OpenAI API usage: {'prompt_tokens': 833, 'completion_tokens': 317, 'total_tokens': 1150}
+2025-12-03 22:18:23 - INFO - 
+=== Final Itinerary ===
+2025-12-03 22:23:42 - INFO - ==================================================
+2025-12-03 22:23:42 - INFO - NEW TRAVEL PLANNING SESSION STARTED
+2025-12-03 22:23:42 - INFO - ==================================================
+2025-12-03 22:23:57 - ERROR - [get_city_code] Error for 'Paris': [429]
+
+2025-12-03 22:23:57 - INFO - Using origin airport: JFK
+2025-12-03 22:23:57 - INFO - Using destination city code for hotel/activities: PAR
+2025-12-03 22:23:59 - INFO - [find_best_flight] Searching JFK (Airport) -> CDG (Airport)
+2025-12-03 22:24:08 - INFO - [find_best_flight] Found flight with 6X at 250.23 USD.
+2025-12-03 22:24:08 - INFO - [find_best_hotel] Searching hotels in PAR (City Code)
+2025-12-03 22:24:09 - ERROR - [find_best_hotel] Amadeus API error: [400]
+
+2025-12-03 22:24:10 - INFO - [get_activities] Searching activities near PAR (48.85334, 2.34889)
+2025-12-03 22:24:13 - INFO - [get_activities] Found 3 activities.
+2025-12-03 22:24:13 - INFO - 
+Running multi-agent crew...
+
+2025-12-03 22:24:23 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:24:23 - INFO - OpenAI API usage: {'prompt_tokens': 218, 'completion_tokens': 312, 'total_tokens': 530}
+2025-12-03 22:24:25 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:24:25 - INFO - OpenAI API usage: {'prompt_tokens': 510, 'completion_tokens': 85, 'total_tokens': 595}
+2025-12-03 22:24:28 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:24:28 - INFO - OpenAI API usage: {'prompt_tokens': 552, 'completion_tokens': 108, 'total_tokens': 660}
+2025-12-03 22:24:32 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:24:32 - INFO - OpenAI API usage: {'prompt_tokens': 704, 'completion_tokens': 274, 'total_tokens': 978}
+2025-12-03 22:24:32 - INFO - 
+=== Final Itinerary (LOGGED) ===
+2025-12-03 22:24:32 - INFO - Trip Itinerary: JFK -> Paris (2026-01-10 to 2026-01-13)
+
+1. Flight:
+- Airline 6X, Direct flight
+- Departure: January 10, 2026, 10:00 AM from JFK
+- Arrival: January 10, 2026, 8:00 PM in Paris (PAR)
+- Price: 250.23 USD
+
+2. Hotel:
+- Hotel information currently unavailable due to system issue.
+- Recommend securing accommodation in central Paris near major attractions through trusted platforms.
+
+3. Activities:
+- Best Croissants + Pastries -- Sweet & Savory le Marais Paris Walk: 128.00 EUR
+- Versailles Private Round-Trip Luxury Transfer From Paris: 422.00 EUR
+- Versailles Museum Palace Direct Tickets: 47.00 EUR
+
+4. Simple Day Plan:
+- Day 1 (Jan 10): Arrive Paris evening; check into hotel; enjoy local dining.
+- Day 2 (Jan 11): Morning pastry walk in Le Marais; afternoon Versailles visit with private transfer and museum entry.
+- Day 3 (Jan 12): Explore central Paris landmarks at leisure; relaxing dinner.
+- Day 4 (Jan 13): Departure from Paris back to JFK.
+2025-12-03 22:25:15 - INFO - ==================================================
+2025-12-03 22:25:15 - INFO - NEW TRAVEL PLANNING SESSION STARTED
+2025-12-03 22:25:15 - INFO - ==================================================
+2025-12-03 22:25:33 - INFO - Using origin airport: JFK
+2025-12-03 22:25:33 - INFO - Using destination city code for hotel/activities: LON
+2025-12-03 22:25:35 - INFO - [find_best_flight] Searching JFK (Airport) -> LHR (Airport)
+2025-12-03 22:25:48 - INFO - [find_best_flight] Found flight with B6 at 501.13 USD.
+2025-12-03 22:25:48 - INFO - [find_best_hotel] Searching hotels in LON (City Code)
+2025-12-03 22:25:49 - ERROR - [find_best_hotel] Amadeus API error: [400]
+
+2025-12-03 22:25:49 - INFO - [get_activities] Searching activities near LON (51.5, -0.16666)
+2025-12-03 22:25:52 - INFO - [get_activities] Found 3 activities.
+2025-12-03 22:25:52 - INFO - 
+Running multi-agent crew...
+
+2025-12-03 22:25:57 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:25:57 - INFO - OpenAI API usage: {'prompt_tokens': 219, 'completion_tokens': 327, 'total_tokens': 546}
+2025-12-03 22:25:58 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:25:58 - INFO - OpenAI API usage: {'prompt_tokens': 561, 'completion_tokens': 81, 'total_tokens': 642}
+2025-12-03 22:26:00 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:26:00 - INFO - OpenAI API usage: {'prompt_tokens': 601, 'completion_tokens': 105, 'total_tokens': 706}
+2025-12-03 22:26:04 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 22:26:04 - INFO - OpenAI API usage: {'prompt_tokens': 753, 'completion_tokens': 260, 'total_tokens': 1013}
+2025-12-03 22:26:04 - INFO - 
+=== Final Itinerary (LOGGED) ===
+2025-12-03 22:26:04 - INFO - Travel Itinerary: JFK → London (Jan 22–25, 2026)
+
+1. Flight:
+- Airline: B6
+- Departure: JFK, Jan 22, 2026, 20:55
+- Arrival: London, Jan 23, 2026, 09:30
+- Price: $501.13 USD
+- Overnight flight, balance of cost and convenience
+
+2. Hotel:
+- Currently unavailable; recommend booking through trusted platforms closer to travel dates or upon update
+
+3. Activities:
+- Thames Cruise: Westminster to Greenwich, £16.00
+- London Crime and Policing History Walking Tour, £34.00
+- London Private Spy-Themed Walking Tour, £179.00
+
+4. Simple Day Plan:
+- Jan 23: Arrive and check-in (hotel TBD), then enjoy Thames Cruise to see iconic sights from river
+- Jan 24: Morning London Crime and Policing History Walking Tour; afternoon at leisure or exploring local sites
+- Jan 25: Morning Private Spy-Themed Walking Tour; depart London for JFK in afternoon/evening flight
+
+This compact itinerary ensures efficient use of time and a blend of cultural and unique experiences in London.

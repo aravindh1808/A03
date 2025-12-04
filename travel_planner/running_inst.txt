@@ -1,0 +1,8 @@
+To Setup Virtual Environment:
+venv\Scripts\activate
+
+To Test Setup of Crew AI:
+python test_crewai_llm.py
+
+To Run the App:
+python agentic_travel_planner.py
